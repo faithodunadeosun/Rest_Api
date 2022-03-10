@@ -1,0 +1,25 @@
+GET http://localhost:5080/clients/
+
+###
+
+GET http://localhost:5080/clients/6228dc8e2f487efce8ee7521
+
+###
+
+POST  http://localhost:5080/clients
+Content-Type: application/json
+
+{
+    "clientsName": "virtous people",
+    "clientsSubscribedChannel": "let us talk about it"
+}
+###
+DELETE http://localhost:5080/clients/6228e74dfd6f24f367e3c630
+
+###
+PATCH  http://localhost:5080/clients/6228f501ed7636c7c898feac
+Content-Type: application/json
+
+{
+    "clientsName": "gracious vibes"
+}
